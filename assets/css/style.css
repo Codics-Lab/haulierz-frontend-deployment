@@ -231,6 +231,7 @@ button:focus {
 
 .common-btn .sign-up-btn {
   color: #ffffff;
+  font-weight: 700;
   border: 1px solid;
   border-image-source: linear-gradient(90deg, #013C78 0%, #005EBE 63%);
   border-image-slice: 1;
@@ -253,6 +254,7 @@ button:focus {
 
 .common-btn .sign-up-btn:hover {
   color: #005EBE;
+  background-color: #fff;
 }
 
 .common-btn .sign-up-btn:hover:before {
