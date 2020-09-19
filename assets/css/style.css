@@ -453,18 +453,31 @@ button:focus {
   display: inline-block;
   font-weight: 700;
   font-size: 16px;
-  color: #005EBE;
   width: 210px;
   padding-top: 16px;
   padding-bottom: 16px;
   margin-right: 8px;
   margin-left: 8px;
+}
+
+.banner-btn .about-btn {
+  color: #005EBE;
   background-color: #ffffff;
 }
 
-.banner-btn a:hover {
+.banner-btn .booking-btn {
+  color: #ffffff;
+  background-color: #005EBE ;
+}
+
+.banner-btn .about-btn:hover {
   color: #ffffff;
   background-color: #005EBE;
+}
+
+.banner-btn .booking-btn:hover {
+  color: #005EBE;
+  background-color: #ffffff;
 }
 
 /*-- End Banner --*/
