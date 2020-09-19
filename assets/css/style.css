@@ -197,9 +197,11 @@ button:focus {
 
 .common-btn .login-btn {
   border: 1px solid;
+  font-weight: 700;
   border-image-source: linear-gradient(90deg, #013C78 0%, #005EBE 63%);
   border-image-slice: 1;
   color:#005EBE;
+  background-color: #fff;
   margin-right: 10px;
 }
 
