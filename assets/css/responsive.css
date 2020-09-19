@@ -1,0 +1,2533 @@
+@media only screen and (max-width: 767px) {
+  body {
+    font-size: 14px;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    line-height: 1.4;
+  }
+  p {
+    line-height: 1.7;
+  }
+  .ptb-100 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .pt-100 {
+    padding-top: 50px;
+  }
+  .pb-70 {
+    padding-bottom: 20px;
+  }
+  .pb-100 {
+    padding-bottom: 50px;
+  }
+  /*----- Home Page 1 -----*/
+  /*-- Navbar --*/
+  .mobile-nav nav .navbar-nav {
+    height: 350px;
+    overflow-y: scroll;
+  }
+  .mobile-nav.mean-container .mean-nav ul li a.active {
+    color: #4bcc5a;
+  }
+  .mobile-nav .logo {
+    width: 45px;
+  }
+  .navbar-area .common-btn {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    -webkit-box-shadow: 0px 6px 8px 0px #dddddd69;
+            box-shadow: 0px 6px 8px 0px #dddddd69;
+  }
+  .navbar-area .common-btn a {
+    font-size: 13px;
+    width: 105px;
+    padding: 9px 0;
+  }
+  /*-- End Navbar --*/
+  /*-- Banner --*/
+  .banner-area {
+    height: 100%;
+  }
+  .banner-text {
+    margin-top: 0;
+    padding-top: 180px;
+    padding-bottom: 80px;
+  }
+  .banner-text h1 {
+    font-size: 25px;
+    margin-bottom: 5px;
+  }
+  .banner-text p {
+    margin-bottom: 40px;
+    font-size: 14px;
+  }
+  .banner-form-area {
+    padding: 5px 15px;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 0 5px #ffffff80;
+            box-shadow: 0px 0px 0 5px #ffffff80;
+  }
+  .banner-form-area form {
+    padding-right: 0;
+  }
+  .banner-form-area form .form-group .nice-select {
+    font-size: 14px;
+  }
+  .banner-form-area form .form-group .form-control {
+    height: 45px;
+    font-size: 14px;
+    border-right: 0;
+  }
+  .banner-form-area form .form-group label {
+    right: 13px;
+  }
+  .banner-form-area form .form-group label i {
+    font-size: 18px;
+  }
+  .banner-form-area .banner-form-btn {
+    position: relative;
+    top: 0;
+    right: 0;
+    font-size: 14px;
+    padding: 10px 40px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    width: 100%;
+  }
+  .banner-btn {
+    margin-top: 50px;
+  }
+  .banner-btn a {
+    font-size: 14px;
+    width: 100%;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+  /*-- End Banner --*/
+  /*-- Account --*/
+  .account-wrap {
+    max-width: 100%;
+  }
+  .account-item:before {
+    display: none;
+  }
+  .account-item i {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 28px;
+    margin-bottom: 23px;
+  }
+  .account-item span {
+    font-size: 14px;
+  }
+  /*-- End Account --*/
+  /*-- Category --*/
+  .section-title {
+    margin-bottom: 30px;
+    margin-top: -4px;
+  }
+  .section-title h2 {
+    font-size: 20px;
+  }
+  .category-area .col-lg-3 {
+    max-width: 100%;
+  }
+  .category-item {
+    padding-top: 25px;
+    padding-bottom: 20px;
+  }
+  .category-item a {
+    font-size: 14px;
+    max-width: 100%;
+  }
+  .category-border {
+    border-right: 0;
+    border-bottom: 0;
+  }
+  .category-border-two {
+    border-right: 0;
+  }
+  .category-border-three {
+    border-bottom: 0;
+  }
+  /*-- End Category --*/
+  /*-- Portal --*/
+  .portal-item img {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .portal-item .portal-trusted {
+    display: block;
+    position: relative;
+    right: 0;
+    bottom: 0;
+    margin-top: 10px;
+  }
+  .portal-item .portal-trusted span {
+    font-size: 18px;
+    padding: 15px 50px;
+    -webkit-box-shadow: 0 0 0 5px #cce6cf;
+            box-shadow: 0 0 0 5px #cce6cf;
+  }
+  .portal-item h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .portal-item p {
+    margin-bottom: 24px;
+  }
+  .portal-item .common-btn a {
+    width: 135px;
+    font-size: 14px;
+  }
+  .portal-right {
+    padding-left: 0;
+  }
+  /*-- End Portal --*/
+  /*-- Jobs --*/
+  .sorting-menu {
+    margin-bottom: 30px;
+    max-width: 100%;
+  }
+  .sorting-menu ul {
+    padding: 15px 15px;
+  }
+  .sorting-menu ul li {
+    font-size: 14px;
+    border: 1px solid;
+    padding: 8px 20px;
+    margin-bottom: 10px;
+  }
+  .job-item {
+    padding: 15px;
+  }
+  .job-item .job-inner {
+    padding-left: 60px;
+  }
+  .job-item .job-inner .job-inner-left {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 60%;
+            flex: 0 0 60%;
+    max-width: 60%;
+  }
+  .job-item .job-inner .job-inner-left h3 {
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+  .job-item .job-inner .job-inner-left a {
+    font-size: 13px;
+    margin-bottom: 8px;
+  }
+  .job-item .job-inner .job-inner-left ul li {
+    font-size: 13px;
+    padding-left: 20px;
+  }
+  .job-item .job-inner .job-inner-right {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 40%;
+            flex: 0 0 40%;
+    max-width: 40%;
+  }
+  .job-item .job-inner .job-inner-right ul li {
+    font-size: 12px;
+    width: 75px;
+    margin-bottom: 8px;
+  }
+  .job-pagination ul li {
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+  .job-pagination ul li a {
+    font-size: 14px;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+  }
+  /*-- End Jobs --*/
+  /*-- Counter --*/
+  .counter-item i {
+    font-size: 35px;
+    margin-bottom: 2px;
+  }
+  .counter-item h3 {
+    font-size: 35px;
+  }
+  .counter-item p {
+    font-size: 14px;
+  }
+  /*-- End Counter --*/
+  /*-- Popular --*/
+  .popular-item .practice-inner img:nth-child(1) {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .popular-item p {
+    margin-bottom: 30px;
+  }
+  .popular-item ul li {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  .popular-wrap:before {
+    display: none;
+  }
+  .popular-wrap:after {
+    display: none;
+  }
+  .popular-wrap .popular-bottom {
+    margin-bottom: 0;
+  }
+  .popular-right {
+    padding-left: 0;
+  }
+  /*-- End Popular --*/
+  /*-- Companies --*/
+  .companies-area .section-title {
+    margin-bottom: 20px;
+  }
+  .companies-area .owl-theme .owl-nav.disabled + .owl-dots {
+    margin-top: 15px;
+  }
+  .companies-item img {
+    margin-bottom: 20px;
+  }
+  .companies-item h3 {
+    margin-bottom: 12px;
+  }
+  .companies-item h3 a {
+    font-size: 18px;
+  }
+  .companies-item p {
+    margin-bottom: 18px;
+  }
+  .companies-item .companies-btn {
+    font-size: 14px;
+  }
+  /*-- End Companies --*/
+  /*-- Profile --*/
+  .profile-area-two {
+    padding-bottom: 170px;
+  }
+  .profile-area .owl-theme .owl-nav.disabled + .owl-dots {
+    margin-top: 15px;
+  }
+  /*-- End Profile --*/
+  /*-- App --*/
+  .app-area {
+    background-image: unset;
+  }
+  .app-left {
+    text-align: center;
+  }
+  .app-item {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .app-item img {
+    position: relative;
+  }
+  .app-item img:first-child {
+    bottom: 0;
+    right: 0;
+  }
+  .app-item img:last-child {
+    bottom: 0;
+    right: 0;
+  }
+  .app-item .section-title {
+    margin-bottom: 20px;
+  }
+  .app-item .section-title h2 {
+    color: #333333;
+  }
+  .app-item p {
+    color: #333333;
+  }
+  .app-item .app-btn .app-btn-one {
+    padding: 8px;
+    margin-right: 0;
+    width: 140px;
+  }
+  .app-item .app-btn .app-btn-one i {
+    font-size: 25px;
+    top: 6px;
+  }
+  .app-item .app-btn .app-btn-one span {
+    padding-left: 32px;
+  }
+  .app-item .app-btn .app-btn-one p {
+    padding-left: 32px;
+    color: #fff;
+  }
+  .app-item .app-btn .app-btn-two {
+    padding: 9px;
+    margin-right: 5px;
+    width: 140px;
+  }
+  .app-item .app-btn .app-btn-two i {
+    font-size: 25px;
+    top: 6px;
+  }
+  .app-item .app-btn .app-btn-two span {
+    padding-left: 32px;
+  }
+  .app-item .app-btn .app-btn-two p {
+    padding-left: 32px;
+    color: #fff;
+  }
+  @-webkit-keyframes app-a-one {
+    50% {
+      -webkit-transform: translate(0, 10px);
+              transform: translate(0, 10px);
+    }
+  }
+  @keyframes app-a-one {
+    50% {
+      -webkit-transform: translate(0, 10px);
+              transform: translate(0, 10px);
+    }
+  }
+  @-webkit-keyframes app-a-two {
+    50% {
+      -webkit-transform: translate(10px, 0);
+              transform: translate(10px, 0);
+    }
+  }
+  @keyframes app-a-two {
+    50% {
+      -webkit-transform: translate(10px, 0);
+              transform: translate(10px, 0);
+    }
+  }
+  /*-- End App --*/
+  /*-- Blog --*/
+  .blog-area {
+    padding-bottom: 70px;
+    margin-top: -30px;
+  }
+  .blog-item .blog-top span {
+    font-size: 14px;
+  }
+  .blog-item .blog-bottom {
+    padding: 15px 14px;
+  }
+  .blog-item .blog-bottom h3 {
+    margin-bottom: 18px;
+  }
+  .blog-item .blog-bottom h3 a {
+    font-size: 18px;
+  }
+  /*-- End Blog --*/
+  /*-- Subscribe --*/
+  .subscribe-area {
+    padding-top: 30px;
+    padding-bottom: 40px;
+    top: -50px;
+  }
+  .subscribe-area .subscribe-shape img:nth-child(2) {
+    display: none;
+  }
+  .subscribe-area .subscribe-shape img:nth-child(4) {
+    display: none;
+  }
+  .subscribe-area .subscribe-shape img:nth-child(5) {
+    display: none;
+  }
+  .validation-danger {
+    font-size: 13px;
+  }
+  .validation-success {
+    font-size: 13px;
+  }
+  .subscribe-item {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .subscribe-item .newsletter-form .form-control {
+    height: 43px;
+    font-size: 14px;
+    padding-left: 15px;
+  }
+  .subscribe-item .newsletter-form .subscribe-btn {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+  /*-- End Subscribe --*/
+  /*-- Footer --*/
+  .footer-item .footer-logo a {
+    margin-bottom: 20px;
+  }
+  .footer-item .footer-logo p {
+    margin-bottom: 15px;
+    font-size: 14px;
+  }
+  .footer-item .footer-category h3 {
+    margin-bottom: 22px;
+    font-size: 18px;
+    padding-bottom: 13px;
+  }
+  .footer-item .footer-category ul li {
+    margin-bottom: 14px;
+  }
+  .footer-item .footer-category ul li a {
+    font-size: 14px;
+  }
+  .footer-item .footer-find h3 {
+    margin-bottom: 22px;
+    font-size: 18px;
+    padding-bottom: 13px;
+  }
+  .footer-item .footer-find ul li {
+    margin-bottom: 14px;
+  }
+  .footer-item .footer-find ul li a {
+    font-size: 14px;
+  }
+  .copyright-area {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  .copyright-item p {
+    margin-bottom: 5px;
+    font-size: 13px;
+  }
+  .copyright-item ul li a {
+    font-size: 13px;
+  }
+  .copyright-right {
+    text-align: center;
+  }
+  /*-- End Footer --*/
+  /*----- End Home Page 1 -----*/
+  /*----- Back To Top -----*/
+  #toTop {
+    bottom: 95px;
+  }
+  .back-to-top-btn i {
+    height: 45px;
+    width: 45px;
+    line-height: 45px;
+    font-size: 28px;
+    margin-right: 18px;
+  }
+  /*----- End Back To Top -----*/
+  /*----- Home Page 2 -----*/
+  /*-- Banner --*/
+  .banner-area-two {
+    height: 100%;
+  }
+  .banner-area-two .banner-text {
+    margin-top: 0;
+  }
+  /*-- End Banner --*/
+  /*-- Jobseeker --*/
+  .jobseeker-item {
+    padding: 25px 10px;
+  }
+  .jobseeker-item .jobseeker-icon {
+    top: 34px;
+    left: 11px;
+  }
+  .jobseeker-item .jobseeker-inner {
+    padding-left: 55px;
+  }
+  .jobseeker-item .jobseeker-inner span {
+    font-size: 13px;
+    margin-bottom: 6px;
+  }
+  .jobseeker-item .jobseeker-inner h3 {
+    font-size: 14px;
+  }
+  .jobseeker-item a {
+    font-size: 13px;
+    top: 0;
+    right: -55px;
+    margin-top: 10px;
+    display: inline-block;
+    position: relative;
+  }
+  .job-wrap {
+    margin-top: 0;
+    padding: 35px 10px 5px 10px;
+  }
+  /*-- End Jobseeker --*/
+  /*-- Account --*/
+  .account-area-two {
+    padding-top: 50px;
+    padding-bottom: 40px;
+  }
+  .account-area-two .banner-btn {
+    margin-top: 20px;
+  }
+  /*-- End Account --*/
+  /*-- Portal --*/
+  .portal-counter-area .counter-item h3 {
+    font-size: 24px;
+  }
+  .portal-counter-area .counter-item p {
+    font-size: 13px;
+  }
+  /*-- End Portal --*/
+  /*----- End Home Page 2 -----*/
+  /*----- Home Page 3 -----*/
+  /*-- Banner --*/
+  .banner-area-three {
+    height: 100%;
+  }
+  .banner-area-three .banner-text {
+    text-align: left;
+  }
+  .banner-area-three .banner-text .banner-form-area form {
+    padding-right: 0;
+  }
+  .banner-area-three .banner-text .banner-form-area .banner-form-btn {
+    width: 100%;
+  }
+  .banner-area-three .banner-img img {
+    position: relative;
+    right: 0;
+  }
+  /*-- End Banner --*/
+  /*-- Create --*/
+  .create-area {
+    padding-top: 40px;
+  }
+  .create-item h2 {
+    font-size: 18px;
+  }
+  .create-item .create-btn {
+    text-align: left;
+  }
+  .create-item .create-btn a {
+    font-size: 14px;
+    padding: 14px 18px;
+  }
+  /*-- End Create --*/
+  /*-- Page Title --*/
+  .page-title-area {
+    height: 100%;
+  }
+  .page-title-text {
+    margin-top: 0;
+    padding-top: 200px;
+    padding-bottom: 100px;
+  }
+  .page-title-text h2 {
+    margin-bottom: 8px;
+    font-size: 24px;
+  }
+  .page-title-text ul li {
+    font-size: 15px;
+  }
+  /*-- End Page Title --*/
+  /*----- End Home Page 3 -----*/
+  /*----- Job List Page -----*/
+  /*-- Job --*/
+  .job-area-two {
+    padding-bottom: 70px;
+  }
+  /*-- End Job --*/
+  /*----- End Job List Page -----*/
+  /*----- Job Details Page -----*/
+  /*-- Job Details --*/
+  .job-details-area {
+    padding-bottom: 70px;
+  }
+  .job-details-item .job-description {
+    margin-bottom: 30px;
+  }
+  .job-details-item .job-description h2 {
+    margin-bottom: 12px;
+    font-size: 18px;
+    margin-top: -3px;
+  }
+  .job-details-item .job-description p {
+    margin-bottom: 16px;
+    font-size: 14px;
+  }
+  .job-details-item .job-knowledge {
+    margin-bottom: 30px;
+  }
+  .job-details-item .job-knowledge h2 {
+    margin-bottom: 12px;
+    font-size: 18px;
+  }
+  .job-details-item .job-knowledge ul li {
+    font-size: 14px;
+  }
+  .job-details-item .job-overview {
+    padding: 25px 20px;
+  }
+  .job-details-item .job-overview h3 {
+    margin-bottom: 25px;
+    padding-bottom: 12px;
+    font-size: 18px;
+  }
+  .job-details-item .job-overview ul li i {
+    top: 4px;
+  }
+  .job-details-item .job-overview ul li p {
+    font-size: 14px;
+    margin-bottom: 1px;
+  }
+  .job-details-item .job-overview ul li span {
+    font-size: 13px;
+  }
+  .job-details-btn {
+    padding-top: 14px;
+    padding-bottom: 14px;
+    font-size: 14px;
+  }
+  /*-- End Job Details --*/
+  /*----- End Job Details Page -----*/
+  /*----- Post A Job Page -----*/
+  /*-- Job Area --*/
+  .post-job-area {
+    padding-bottom: 100px;
+  }
+  .post-job-item {
+    padding: 25px 15px 40px;
+  }
+  .post-job-item .post-job-heading {
+    margin-bottom: 30px;
+  }
+  .post-job-item .post-job-heading h2 {
+    font-size: 25px;
+  }
+  .post-job-item .form-group .form-control {
+    height: 45px;
+    padding-left: 15px;
+    font-size: 14px;
+  }
+  .post-job-item .form-group label {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .post-job-item .form-group .job-category-area .nice-select {
+    height: 45px;
+  }
+  .post-job-item .form-group .job-category-area .nice-select span.current {
+    line-height: 45px;
+  }
+  .post-job-item .job-currency-area .nice-select {
+    height: 44px;
+    width: 85px;
+    line-height: 44px;
+    top: 31px;
+  }
+  .post-job-item .job-currency-area .nice-select span.current {
+    font-size: 14px;
+  }
+  .post-job-item .job-type-area span {
+    margin-bottom: 12px;
+    font-size: 14px;
+  }
+  .post-job-item .job-type-area label {
+    margin-right: -1px;
+  }
+  .post-job-item .create-ac-btn {
+    font-size: 15px;
+    padding: 12px 42px;
+  }
+  .profile-area-two {
+    padding-bottom: 70px;
+  }
+  /*-- End Job Area --*/
+  /*----- End Post A Job Page -----*/
+  /*----- Single Profile Page -----*/
+  /*-- Single Profile --*/
+  .single-profile-area {
+    padding-bottom: 70px;
+  }
+  .single-profile-item .single-profile-left {
+    padding: 30px 15px 10px;
+  }
+  .single-profile-item .single-profile-left .single-profile-contact {
+    margin-bottom: 30px;
+  }
+  .single-profile-item .single-profile-left .single-profile-contact h3 {
+    font-size: 18px;
+    margin-bottom: 16px;
+  }
+  .single-profile-item .single-profile-left .single-profile-contact ul li {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  .single-profile-item .single-profile-left .single-profile-social {
+    margin-bottom: 30px;
+  }
+  .single-profile-item .single-profile-left .single-profile-social h3 {
+    font-size: 18px;
+    margin-bottom: 16px;
+  }
+  .single-profile-item .single-profile-left .single-profile-social ul li {
+    margin-bottom: 15px;
+  }
+  .single-profile-item .single-profile-left .single-profile-social ul li a {
+    font-size: 14px;
+  }
+  .single-profile-item .single-profile-left .single-profile-skills h3 {
+    font-size: 18px;
+    margin-bottom: 16px;
+  }
+  .single-profile-item .single-profile-left .single-profile-skills .skill p {
+    margin-bottom: 12px;
+    font-size: 15px;
+  }
+  .single-profile-item .single-profile-left .single-profile-skills .skill .skill-bar span {
+    top: -35px;
+    font-size: 15px;
+  }
+  .single-profile-item .single-profile-right .single-profile-name {
+    margin-bottom: 40px;
+  }
+  .single-profile-item .single-profile-right .single-profile-name h2 {
+    font-size: 28px;
+    margin-bottom: 5px;
+  }
+  .single-profile-item .single-profile-right .single-profile-name span {
+    font-size: 16px;
+    margin-bottom: 4px;
+  }
+  .single-profile-item .single-profile-right .single-profile-name p {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  .single-profile-item .single-profile-right .single-profile-name a {
+    font-size: 13px;
+    padding: 14px 12px;
+    margin-right: 5px;
+    width: 138px;
+  }
+  .single-profile-item .single-profile-right .single-profile-textarea .single-profile-heading h3 {
+    font-size: 20px;
+  }
+  /*-- End Single Profile --*/
+  /*----- End Single Profile Page -----*/
+  /*----- Single Resume Page -----*/
+  /*-- Single Resume --*/
+  .single-resume-area {
+    padding-bottom: 70px;
+  }
+  .single-resume-profile img {
+    margin-bottom: 15px;
+  }
+  .single-resume-profile h3 {
+    margin-bottom: 15px;
+    font-size: 22px;
+  }
+  .single-resume-description h3 {
+    margin-bottom: 6px;
+    font-size: 20px;
+  }
+  .single-resume-description p {
+    font-size: 14px;
+  }
+  .single-resume-skills {
+    margin-bottom: 30px;
+  }
+  .single-resume-skills h3 {
+    margin-bottom: 6px;
+    font-size: 20px;
+  }
+  .single-resume-skills p {
+    font-size: 14px;
+  }
+  .single-resume-skills ul li {
+    font-size: 14px;
+    margin-bottom: 12px;
+  }
+  .single-resume-education h3 {
+    margin-bottom: 6px;
+    font-size: 20px;
+  }
+  .single-resume-education p {
+    font-size: 14px;
+  }
+  .single-resume-category {
+    padding: 25px 30px;
+  }
+  .single-resume-category h3 {
+    font-size: 18px;
+  }
+  .single-resume-category ul li {
+    font-size: 14px;
+  }
+  .single-resume-category ul li:before {
+    top: 1px;
+  }
+  /*-- End Single Resume --*/
+  /*----- End Single Resume Page -----*/
+  /*----- Create Account Page -----*/
+  /*-- Create Photo --*/
+  .create-account-area {
+    padding-bottom: 100px;
+  }
+  .create-photo .already-create {
+    margin-bottom: 30px;
+  }
+  .create-photo .already-create a {
+    padding: 11px 27px;
+    margin-left: 0;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .create-photo .create-photo-item .create-photo-left {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+  }
+  .create-photo .create-photo-item .create-photo-right .form-group .form-control {
+    height: 50px;
+    margin-bottom: 25px;
+    padding-left: 20px;
+    font-size: 14px;
+  }
+  .create-photo .create-photo-item .create-photo-right .create-photo-btn {
+    font-size: 15px;
+    padding: 12px 35px;
+  }
+  /*-- End Create Photo --*/
+  /*-- Create Information --*/
+  .create-information {
+    padding: 25px 15px 10px;
+    margin-bottom: 30px;
+  }
+  .create-information h3 {
+    margin-bottom: 30px;
+    font-size: 20px;
+  }
+  .create-information .create-information-btn {
+    margin-bottom: 30px;
+  }
+  .create-information .create-information-btn a {
+    display: block;
+    width: 100%;
+    font-size: 14px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .create-information .form-group {
+    margin-bottom: 30px;
+  }
+  .create-information .form-group label {
+    font-size: 14px;
+  }
+  .create-information .form-group .form-control {
+    height: 45px;
+    font-size: 14px;
+  }
+  .create-information .form-group .gender-area span {
+    margin-bottom: 15px;
+    font-size: 14px;
+  }
+  /*-- End Create Information --*/
+  /*-- Create Education --*/
+  .create-education {
+    padding: 25px 15px 10px;
+    margin-bottom: 30px;
+  }
+  .create-education .create-education-wrap .create-education-right a {
+    font-size: 14px;
+    padding: 10px 12px;
+  }
+  .create-education h3 {
+    margin-bottom: 30px;
+    font-size: 20px;
+  }
+  .create-education .form-group label {
+    font-size: 14px;
+  }
+  .create-education .form-group .form-control {
+    height: 45px;
+    font-size: 14px;
+  }
+  /*-- End Create Education --*/
+  /*-- Create Skills --*/
+  .create-skills {
+    padding: 25px 15px 10px;
+    margin-bottom: 30px;
+  }
+  .create-skills .create-skills-wrap .create-skills-right a {
+    font-size: 13px;
+    padding: 8px 10px;
+    margin-left: 4px;
+    margin-bottom: 5px;
+  }
+  .create-skills h3 {
+    margin-bottom: 30px;
+    font-size: 20px;
+  }
+  .create-skills .form-group label {
+    font-size: 14px;
+  }
+  .create-skills .form-group .form-control {
+    height: 45px;
+    font-size: 14px;
+  }
+  /*-- End Create Education --*/
+  .create-ac-btn {
+    font-size: 15px;
+    padding: 12px 35px;
+  }
+  /*----- End Create Account Page -----*/
+  /*----- Pricing Page -----*/
+  /*-- Pricing --*/
+  .pricing-area {
+    padding-bottom: 70px;
+  }
+  .pricing-item {
+    padding: 30px 30px 35px;
+  }
+  .pricing-item span {
+    font-size: 14px;
+  }
+  .pricing-item h2 {
+    font-size: 40px;
+  }
+  .pricing-item .pricing-btn {
+    margin-top: 30px;
+  }
+  /*-- End Pricing --*/
+  /*----- End Pricing Page -----*/
+  /*----- Dashboard Page -----*/
+  /*-- Dashboard --*/
+  .dashboard-area {
+    padding-bottom: 70px;
+  }
+  .dashboard-area .dashboard-img h3 {
+    margin-bottom: 2px;
+    font-size: 24px;
+  }
+  .dashboard-area .dashboard-img p {
+    font-size: 14px;
+  }
+  .dashboard-area .dashboard-nav ul li {
+    margin-bottom: 10px;
+  }
+  .dashboard-area .dashboard-nav ul li a {
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+  .dashboard-area .create-education-two .create-education-right a {
+    margin-left: 15px;
+    margin-bottom: 5px;
+    font-size: 11px;
+    padding: 10px 10px;
+  }
+  .dashboard-area .change-password-area h2 {
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  .dashboard-area .change-password-area .form-group label {
+    font-size: 14px;
+  }
+  .dashboard-area .change-password-area .change-pass-btn {
+    font-size: 15px;
+    padding: 12px 40px;
+  }
+  /*-- End Dashboard --*/
+  /*----- End Dashboard Page -----*/
+  /*----- Company List Page -----*/
+  /*-- Company --*/
+  .companies-area-two {
+    padding-bottom: 70px;
+  }
+  /*-- End Company --*/
+  /*----- End Company List Page -----*/
+  /*----- Company Details Page -----*/
+  /*-- Company Details --*/
+  .company-details-area {
+    padding-bottom: 70px;
+  }
+  .company-details-item .company-details-logo img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .company-details-item .company-details-logo .company-logo-inner {
+    padding-left: 0;
+    text-align: center;
+  }
+  .company-details-item .company-details-logo .company-logo-inner h3 {
+    font-size: 18px;
+  }
+  .company-details-item .company-details-share span {
+    font-size: 16px;
+  }
+  .company-details-item .company-details-share ul li a {
+    font-size: 17px;
+  }
+  .company-details-item .company-details-find h3 {
+    font-size: 18px;
+  }
+  .company-details-item .company-details-find ul li a {
+    font-size: 14px;
+  }
+  .company-details-item .company-details-description h3 {
+    font-size: 20px;
+    margin-bottom: 12px;
+  }
+  .company-details-item .company-details-description p {
+    font-size: 14px;
+  }
+  /*-- End Company Details --*/
+  /*----- End Company Details Page -----*/
+  /*----- Login Page -----*/
+  /*-- Job --*/
+  .login-area {
+    padding-bottom: 100px;
+  }
+  .login-area h2 {
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-top: -6px;
+  }
+  .login-area .login-wrap {
+    padding: 30px 20px 0;
+  }
+  .login-area .form-group .form-control {
+    padding-left: 15px;
+    font-size: 14px;
+  }
+  .login-area .login-sign-in {
+    padding-top: 0;
+  }
+  .login-area .login-sign-in a {
+    font-size: 14px;
+  }
+  .login-area .login-sign-in ul {
+    margin-top: 15px;
+  }
+  .login-area .login-sign-in ul li {
+    font-size: 14px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .login-area .login-sign-in ul li a {
+    font-size: 14px;
+  }
+  .login-area .login-sign-in .login-btn {
+    font-size: 16px;
+    padding: 12px 70px;
+    margin-top: 20px;
+    margin-bottom: 35px;
+  }
+  .login-area .login-social a {
+    display: block;
+    width: 100%;
+    font-size: 14px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 10px;
+  }
+  .login-area .login-social a i {
+    margin-right: 3px;
+    font-size: 20px;
+  }
+  /*-- End Job --*/
+  /*----- End Login Page -----*/
+  /*----- Error Page -----*/
+  /*-- 404 --*/
+  .error-item {
+    height: 100%;
+    margin-top: 0;
+    padding-top: 155px;
+    padding-bottom: 120px;
+  }
+  .error-item h1 {
+    font-size: 65px;
+    margin-bottom: 4px;
+  }
+  .error-item p {
+    font-size: 20px;
+  }
+  .error-item a {
+    padding: 15px 35px;
+    margin-top: 40px;
+    font-size: 15px;
+  }
+  /*-- End 404 --*/
+  /*----- End Error Page -----*/
+  /*----- FAQ Page -----*/
+  /*-- Faq --*/
+  .faq-area {
+    padding-bottom: 70px;
+  }
+  .faq-head h2 {
+    margin-bottom: 22px;
+    font-size: 20px;
+  }
+  .faq-wrap {
+    margin-bottom: 50px;
+  }
+  .faq-wrap:last-child {
+    margin-bottom: 30px;
+  }
+  .accordion p {
+    font-size: 14px;
+    padding: 20px 20px 15px 20px;
+  }
+  .accordion a {
+    font-size: 15px;
+    padding: 15px 33px 15px 18px;
+  }
+  /*-- End Faq --*/
+  /*----- End Faq Page -----*/
+  /*----- Privacy Policy Page -----*/
+  /*-- Privacy --*/
+  .privacy-area {
+    padding-bottom: 50px;
+  }
+  .privacy-item {
+    margin-bottom: 40px;
+  }
+  .privacy-item h2 {
+    font-size: 19px;
+    margin-bottom: 12px;
+  }
+  /*-- End Privacy --*/
+  /*----- End Privacy Policy Page -----*/
+  /*----- Blog Details Page -----*/
+  /*-- Blog Details --*/
+  .blog-details-area {
+    padding-bottom: 70px;
+  }
+  .blog-details-item .blog-details-img h3 {
+    margin-bottom: 15px;
+    font-size: 16px;
+  }
+  .blog-details-item .blog-details-img ul li {
+    font-size: 14px;
+  }
+  .blog-details-item .blog-details-img p {
+    margin-bottom: 8px;
+  }
+  .blog-details-item .blog-details-nav a {
+    padding: 7px 18px;
+  }
+  .blog-details-item .blog-details-form h3 {
+    margin-bottom: 16px;
+    font-size: 18px;
+  }
+  .blog-details-item .blog-details-form .form-group .form-control {
+    font-size: 14px;
+    padding-left: 15px;
+  }
+  .blog-details-item .blog-details-form .blog-details-btn {
+    padding: 12px 22px;
+    font-size: 14px;
+  }
+  .blog-details-item .blog-details-form .list-unstyled {
+    font-size: 13px;
+  }
+  .blog-details-item .blog-details-form .text-danger {
+    font-size: 18px;
+  }
+  .blog-details-item .blog-details-form .text-success {
+    font-size: 18px;
+  }
+  /*-- End Blog Details --*/
+  /*----- End Blog Details Page -----*/
+  /*----- Contact Page -----*/
+  /*-- Location --*/
+  .contact-location-item {
+    margin-bottom: 0;
+  }
+  /*-- End Location --*/
+  /*-- Contact --*/
+  .contact-form-area .form-group .form-control {
+    height: 50px;
+    padding-left: 20px;
+    font-size: 14px;
+  }
+  .contact-form-area .list-unstyled {
+    font-size: 13px;
+  }
+  .contact-form-area .text-danger {
+    font-size: 18px;
+  }
+  .contact-form-area .text-success {
+    font-size: 18px;
+  }
+  .contact-form-area .contact-btn {
+    padding: 12px 40px;
+    font-size: 14px;
+  }
+  /*-- End Contact --*/
+  /*-- Map --*/
+  #map {
+    height: 400px;
+  }
+  /*-- End Map --*/
+  /*----- End Contact Page -----*/
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  body {
+    font-size: 14px;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    line-height: 1.4;
+  }
+  p {
+    line-height: 1.7;
+  }
+  .ptb-100 {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .pt-100 {
+    padding-top: 70px;
+  }
+  .pb-70 {
+    padding-bottom: 40px;
+  }
+  .pb-100 {
+    padding-bottom: 70px;
+  }
+  /*----- Home Page 1 -----*/
+  /*-- Navbar --*/
+  .mobile-nav nav .navbar-nav {
+    height: 350px;
+    overflow-y: scroll;
+  }
+  .mobile-nav.mean-container .mean-nav ul li a.active {
+    color: #4bcc5a;
+  }
+  .mobile-nav .logo {
+    width: 45px;
+  }
+  .navbar-area .common-btn {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    -webkit-box-shadow: 0px 6px 8px 0px #dddddd69;
+            box-shadow: 0px 6px 8px 0px #dddddd69;
+  }
+  .navbar-area .common-btn a {
+    font-size: 13px;
+    width: 105px;
+    padding: 9px 0;
+  }
+  /*-- End Navbar --*/
+  /*-- Banner --*/
+  .banner-area {
+    height: 100%;
+  }
+  .banner-text {
+    margin-top: 0;
+    padding-top: 180px;
+    padding-bottom: 80px;
+  }
+  .banner-text h1 {
+    font-size: 25px;
+    margin-bottom: 5px;
+  }
+  .banner-text p {
+    margin-bottom: 40px;
+    font-size: 14px;
+  }
+  .banner-form-area {
+    padding: 5px 15px;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 0 5px #ffffff80;
+            box-shadow: 0px 0px 0 5px #ffffff80;
+  }
+  .banner-form-area form {
+    padding-right: 0;
+  }
+  .banner-form-area form .form-group .nice-select {
+    font-size: 14px;
+  }
+  .banner-form-area form .form-group .form-control {
+    height: 45px;
+    font-size: 14px;
+    border-right: 0;
+  }
+  .banner-form-area form .form-group label {
+    right: 13px;
+  }
+  .banner-form-area form .form-group label i {
+    font-size: 18px;
+  }
+  .banner-form-area .banner-form-btn {
+    position: relative;
+    top: 0;
+    right: 0;
+    font-size: 14px;
+    padding: 10px 40px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    width: 100%;
+  }
+  .banner-btn {
+    margin-top: 50px;
+  }
+  .banner-btn a {
+    font-size: 14px;
+    width: 210PX;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    margin-bottom: 10px;
+  }
+  /*-- End Banner --*/
+  /*-- Account --*/
+  .account-wrap {
+    max-width: 100%;
+  }
+  .account-item:before {
+    display: none;
+  }
+  .account-item i {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 28px;
+    margin-bottom: 23px;
+  }
+  .account-item span {
+    font-size: 14px;
+  }
+  /*-- End Account --*/
+  /*-- Category --*/
+  .section-title {
+    margin-bottom: 30px;
+    margin-top: -6px;
+  }
+  .section-title h2 {
+    font-size: 26px;
+  }
+  .category-area .col-lg-3 {
+    max-width: 100%;
+  }
+  .category-item {
+    padding-top: 25px;
+    padding-bottom: 20px;
+  }
+  .category-item a {
+    font-size: 14px;
+    max-width: 125px;
+  }
+  .category-border {
+    border-right: 0;
+    border-bottom: 0;
+  }
+  .category-border-two {
+    border-right: 0;
+  }
+  .category-border-three {
+    border-bottom: 0;
+  }
+  /*-- End Category --*/
+  /*-- Portal --*/
+  .portal-item img {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .portal-item .portal-trusted {
+    display: block;
+    position: relative;
+    right: 0;
+    bottom: 0;
+    margin-top: 10px;
+  }
+  .portal-item .portal-trusted span {
+    font-size: 18px;
+    padding: 15px 50px;
+    -webkit-box-shadow: 0 0 0 5px #cce6cf;
+            box-shadow: 0 0 0 5px #cce6cf;
+  }
+  .portal-item h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .portal-item p {
+    margin-bottom: 24px;
+  }
+  .portal-item .common-btn a {
+    width: 135px;
+    font-size: 14px;
+  }
+  .portal-right {
+    padding-left: 0;
+  }
+  /*-- End Portal --*/
+  /*-- Jobs --*/
+  .sorting-menu {
+    margin-bottom: 30px;
+    max-width: 100%;
+  }
+  .sorting-menu ul {
+    padding: 15px 15px;
+  }
+  .sorting-menu ul li {
+    font-size: 14px;
+    border: 1px solid;
+    padding: 8px 20px;
+    margin-bottom: 10px;
+  }
+  .job-item {
+    padding: 15px;
+  }
+  .job-item .job-inner {
+    padding-left: 60px;
+  }
+  .job-item .job-inner .job-inner-left h3 {
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+  .job-item .job-inner .job-inner-left a {
+    font-size: 13px;
+    margin-bottom: 8px;
+  }
+  .job-item .job-inner .job-inner-left ul li {
+    font-size: 13px;
+    padding-left: 20px;
+  }
+  .job-item .job-inner .job-inner-right ul li {
+    font-size: 12px;
+    width: 100%;
+    margin-bottom: 8px;
+  }
+  .job-pagination ul li {
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+  .job-pagination ul li a {
+    font-size: 14px;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+  }
+  /*-- End Jobs --*/
+  /*-- Counter --*/
+  .counter-item i {
+    font-size: 35px;
+    margin-bottom: 2px;
+  }
+  .counter-item h3 {
+    font-size: 35px;
+  }
+  .counter-item p {
+    font-size: 14px;
+  }
+  /*-- End Counter --*/
+  /*-- Popular --*/
+  .popular-item .practice-inner img:nth-child(1) {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .popular-item p {
+    margin-bottom: 30px;
+  }
+  .popular-item ul li {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  .popular-wrap:before {
+    display: none;
+  }
+  .popular-wrap:after {
+    display: none;
+  }
+  .popular-wrap .popular-bottom {
+    margin-bottom: 0;
+  }
+  .popular-right {
+    padding-left: 0;
+  }
+  /*-- End Popular --*/
+  /*-- Profile --*/
+  .profile-area-two {
+    padding-bottom: 170px;
+  }
+  .profile-area .owl-theme .owl-nav.disabled + .owl-dots {
+    margin-top: 15px;
+  }
+  /*-- End Profile --*/
+  /*-- App --*/
+  .app-area {
+    background-image: unset;
+  }
+  .app-left {
+    text-align: center;
+  }
+  .app-item {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .app-item img {
+    position: relative;
+  }
+  .app-item img:first-child {
+    bottom: 0;
+    right: 0;
+  }
+  .app-item img:last-child {
+    bottom: 0;
+    right: 0;
+  }
+  .app-item .section-title {
+    margin-bottom: 20px;
+  }
+  .app-item .section-title h2 {
+    color: #333333;
+  }
+  .app-item p {
+    color: #333333;
+  }
+  .app-item .app-btn .app-btn-one {
+    padding: 8px;
+    margin-right: 0;
+    width: 140px;
+  }
+  .app-item .app-btn .app-btn-one i {
+    font-size: 25px;
+    top: 6px;
+  }
+  .app-item .app-btn .app-btn-one span {
+    padding-left: 32px;
+  }
+  .app-item .app-btn .app-btn-one p {
+    padding-left: 32px;
+    color: #fff;
+  }
+  .app-item .app-btn .app-btn-two {
+    padding: 9px;
+    margin-right: 5px;
+    width: 140px;
+  }
+  .app-item .app-btn .app-btn-two i {
+    font-size: 25px;
+    top: 6px;
+  }
+  .app-item .app-btn .app-btn-two span {
+    padding-left: 32px;
+  }
+  .app-item .app-btn .app-btn-two p {
+    padding-left: 32px;
+    color: #fff;
+  }
+  /*-- End App --*/
+  /*-- Blog --*/
+  .blog-area {
+    padding-bottom: 110px;
+    margin-top: -10px;
+  }
+  .blog-item .blog-top span {
+    font-size: 14px;
+  }
+  .blog-item .blog-bottom {
+    padding: 15px 14px;
+  }
+  .blog-item .blog-bottom h3 {
+    margin-bottom: 18px;
+  }
+  .blog-item .blog-bottom h3 a {
+    font-size: 18px;
+  }
+  /*-- End Blog --*/
+  /*-- Subscribe --*/
+  .subscribe-area {
+    padding-top: 30px;
+    padding-bottom: 40px;
+    top: -70px;
+  }
+  .subscribe-area .subscribe-shape img:nth-child(2) {
+    display: none;
+  }
+  .subscribe-area .subscribe-shape img:nth-child(4) {
+    display: none;
+  }
+  .subscribe-area .subscribe-shape img:nth-child(5) {
+    display: none;
+  }
+  .validation-danger {
+    font-size: 13px;
+  }
+  .validation-success {
+    font-size: 13px;
+  }
+  .subscribe-item {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .subscribe-item .newsletter-form .form-control {
+    height: 43px;
+    font-size: 14px;
+    padding-left: 15px;
+  }
+  .subscribe-item .newsletter-form .subscribe-btn {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+  /*-- End Subscribe --*/
+  /*-- Footer --*/
+  .footer-item .footer-logo a {
+    margin-bottom: 20px;
+  }
+  .footer-item .footer-logo p {
+    margin-bottom: 15px;
+    font-size: 14px;
+  }
+  .footer-item .footer-category h3 {
+    margin-bottom: 22px;
+    font-size: 18px;
+    padding-bottom: 13px;
+  }
+  .footer-item .footer-category ul li {
+    margin-bottom: 14px;
+  }
+  .footer-item .footer-category ul li a {
+    font-size: 14px;
+  }
+  .footer-item .footer-find h3 {
+    margin-bottom: 22px;
+    font-size: 18px;
+    padding-bottom: 13px;
+  }
+  .footer-item .footer-find ul li {
+    margin-bottom: 14px;
+  }
+  .footer-item .footer-find ul li a {
+    font-size: 14px;
+  }
+  .copyright-area {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  .copyright-item p {
+    margin-bottom: 5px;
+    font-size: 13px;
+  }
+  .copyright-item ul li a {
+    font-size: 13px;
+  }
+  .copyright-right {
+    text-align: center;
+  }
+  /*-- End Footer --*/
+  /*----- End Home Page 1 -----*/
+  /*----- Home Page 2 -----*/
+  /*-- Banner --*/
+  .banner-area-two {
+    height: 100%;
+  }
+  .banner-area-two .banner-text {
+    margin-top: 0;
+  }
+  /*-- End Banner --*/
+  /*-- Jobseeker --*/
+  .jobseeker-item {
+    padding: 25px 10px;
+  }
+  .jobseeker-item .jobseeker-icon {
+    top: 34px;
+    left: 11px;
+  }
+  .jobseeker-item .jobseeker-inner {
+    padding-left: 55px;
+  }
+  .jobseeker-item .jobseeker-inner span {
+    font-size: 13px;
+    margin-bottom: 6px;
+  }
+  .jobseeker-item .jobseeker-inner h3 {
+    font-size: 14px;
+  }
+  .jobseeker-item a {
+    font-size: 13px;
+    top: 0;
+    right: -55px;
+    margin-top: 10px;
+    display: inline-block;
+    position: relative;
+  }
+  .job-wrap {
+    margin-top: 0;
+    padding: 35px 10px 5px 10px;
+  }
+  /*-- End Jobseeker --*/
+  /*-- Account --*/
+  .account-area-two {
+    padding-top: 50px;
+    padding-bottom: 40px;
+  }
+  .account-area-two .banner-btn {
+    margin-top: 20px;
+  }
+  /*-- End Account --*/
+  /*-- Portal --*/
+  .portal-counter-area .counter-item h3 {
+    font-size: 24px;
+  }
+  .portal-counter-area .counter-item p {
+    font-size: 13px;
+  }
+  /*-- End Portal --*/
+  /*----- End Home Page 2 -----*/
+  /*----- Home Page 3 -----*/
+  /*-- Banner --*/
+  .banner-area-three {
+    height: 100%;
+  }
+  .banner-area-three .banner-text {
+    text-align: left;
+  }
+  .banner-area-three .banner-text .banner-form-area form {
+    padding-right: 0;
+  }
+  .banner-area-three .banner-text .banner-form-area .banner-form-btn {
+    width: 100%;
+  }
+  .banner-area-three .banner-img img {
+    position: relative;
+    right: 0;
+  }
+  /*-- End Banner --*/
+  /*-- Create --*/
+  .create-area {
+    padding-top: 40px;
+  }
+  .create-item h2 {
+    font-size: 18px;
+  }
+  .create-item .create-btn {
+    text-align: left;
+  }
+  .create-item .create-btn a {
+    font-size: 14px;
+    padding: 14px 18px;
+  }
+  /*-- End Create --*/
+  /*-- Page Title --*/
+  .page-title-area {
+    height: 100%;
+  }
+  .page-title-text {
+    margin-top: 0;
+    padding-top: 200px;
+    padding-bottom: 100px;
+  }
+  .page-title-text h2 {
+    margin-bottom: 8px;
+    font-size: 24px;
+  }
+  .page-title-text ul li {
+    font-size: 15px;
+  }
+  /*-- End Page Title --*/
+  /*----- End Home Page 3 -----*/
+  /*----- Job List Page -----*/
+  /*-- Job --*/
+  .job-area-two {
+    padding-bottom: 110px;
+  }
+  /*-- End Job --*/
+  /*----- End Job List Page -----*/
+  /*----- Job Details Page -----*/
+  /*-- Job Details --*/
+  .job-details-area {
+    padding-bottom: 110px;
+  }
+  .job-details-item .job-description {
+    margin-bottom: 30px;
+  }
+  .job-details-item .job-description h2 {
+    margin-bottom: 12px;
+    font-size: 20px;
+    margin-top: -3px;
+  }
+  .job-details-item .job-description p {
+    margin-bottom: 16px;
+    font-size: 14px;
+  }
+  .job-details-item .job-knowledge {
+    margin-bottom: 30px;
+  }
+  .job-details-item .job-knowledge h2 {
+    margin-bottom: 12px;
+    font-size: 20px;
+  }
+  .job-details-item .job-knowledge ul li {
+    font-size: 14px;
+  }
+  .job-details-item .job-overview {
+    padding: 30px 35px;
+  }
+  .job-details-item .job-overview h3 {
+    margin-bottom: 25px;
+    padding-bottom: 12px;
+    font-size: 18px;
+  }
+  .job-details-item .job-overview ul li i {
+    top: 4px;
+  }
+  .job-details-item .job-overview ul li p {
+    font-size: 14px;
+    margin-bottom: 1px;
+  }
+  .job-details-item .job-overview ul li span {
+    font-size: 13px;
+  }
+  .job-details-btn {
+    padding-top: 14px;
+    padding-bottom: 14px;
+    font-size: 14px;
+  }
+  /*-- End Job Details --*/
+  /*----- End Job Details Page -----*/
+  /*----- Post A Job Page -----*/
+  /*-- Job Area --*/
+  .post-job-area {
+    padding-bottom: 140px;
+  }
+  .post-job-item {
+    padding: 25px 30px 40px;
+  }
+  .post-job-item .post-job-heading {
+    margin-bottom: 30px;
+  }
+  .post-job-item .post-job-heading h2 {
+    font-size: 25px;
+  }
+  .post-job-item .form-group .form-control {
+    height: 45px;
+    padding-left: 15px;
+    font-size: 14px;
+  }
+  .post-job-item .form-group label {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .post-job-item .form-group .job-category-area .nice-select {
+    height: 45px;
+  }
+  .post-job-item .form-group .job-category-area .nice-select span.current {
+    line-height: 45px;
+  }
+  .post-job-item .job-currency-area .nice-select {
+    height: 44px;
+    width: 85px;
+    line-height: 44px;
+    top: 31px;
+  }
+  .post-job-item .job-currency-area .nice-select span.current {
+    font-size: 14px;
+  }
+  .post-job-item .job-type-area span {
+    margin-bottom: 12px;
+    font-size: 14px;
+  }
+  .post-job-item .job-type-area label {
+    margin-right: -1px;
+  }
+  .post-job-item .create-ac-btn {
+    font-size: 15px;
+    padding: 12px 42px;
+  }
+  .profile-area-two {
+    padding-bottom: 110px;
+  }
+  /*-- End Job Area --*/
+  /*----- End Post A Job Page -----*/
+  /*----- Single Profile Page -----*/
+  /*-- Single Profile --*/
+  .single-profile-area {
+    padding-bottom: 110px;
+  }
+  .single-profile-item .single-profile-left {
+    padding: 30px 15px 10px;
+  }
+  .single-profile-item .single-profile-left .single-profile-contact {
+    margin-bottom: 30px;
+  }
+  .single-profile-item .single-profile-left .single-profile-contact h3 {
+    font-size: 18px;
+    margin-bottom: 16px;
+  }
+  .single-profile-item .single-profile-left .single-profile-contact ul li {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  .single-profile-item .single-profile-left .single-profile-social {
+    margin-bottom: 30px;
+  }
+  .single-profile-item .single-profile-left .single-profile-social h3 {
+    font-size: 18px;
+    margin-bottom: 16px;
+  }
+  .single-profile-item .single-profile-left .single-profile-social ul li {
+    margin-bottom: 15px;
+  }
+  .single-profile-item .single-profile-left .single-profile-social ul li a {
+    font-size: 14px;
+  }
+  .single-profile-item .single-profile-left .single-profile-skills h3 {
+    font-size: 18px;
+    margin-bottom: 16px;
+  }
+  .single-profile-item .single-profile-left .single-profile-skills .skill p {
+    margin-bottom: 12px;
+    font-size: 15px;
+  }
+  .single-profile-item .single-profile-left .single-profile-skills .skill .skill-bar span {
+    top: -35px;
+    font-size: 15px;
+  }
+  .single-profile-item .single-profile-right .single-profile-name {
+    margin-bottom: 40px;
+  }
+  .single-profile-item .single-profile-right .single-profile-name h2 {
+    font-size: 28px;
+    margin-bottom: 5px;
+  }
+  .single-profile-item .single-profile-right .single-profile-name span {
+    font-size: 16px;
+    margin-bottom: 4px;
+  }
+  .single-profile-item .single-profile-right .single-profile-name p {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  .single-profile-item .single-profile-right .single-profile-name a {
+    font-size: 13px;
+    padding: 14px 12px;
+    margin-right: 5px;
+    width: 138px;
+  }
+  .single-profile-item .single-profile-right .single-profile-textarea .single-profile-heading h3 {
+    font-size: 20px;
+  }
+  /*-- End Single Profile --*/
+  /*----- End Single Profile Page -----*/
+  /*----- Single Resume Page -----*/
+  /*-- Single Resume --*/
+  .single-resume-area {
+    padding-bottom: 110px;
+  }
+  .single-resume-profile img {
+    margin-bottom: 15px;
+  }
+  .single-resume-profile h3 {
+    margin-bottom: 15px;
+    font-size: 22px;
+  }
+  .single-resume-description h3 {
+    margin-bottom: 6px;
+    font-size: 20px;
+  }
+  .single-resume-description p {
+    font-size: 14px;
+  }
+  .single-resume-skills {
+    margin-bottom: 30px;
+  }
+  .single-resume-skills h3 {
+    margin-bottom: 6px;
+    font-size: 20px;
+  }
+  .single-resume-skills p {
+    font-size: 14px;
+  }
+  .single-resume-skills ul li {
+    font-size: 14px;
+    margin-bottom: 12px;
+  }
+  .single-resume-education h3 {
+    margin-bottom: 6px;
+    font-size: 20px;
+  }
+  .single-resume-education p {
+    font-size: 14px;
+  }
+  .single-resume-category {
+    padding: 25px 30px;
+  }
+  .single-resume-category h3 {
+    font-size: 18px;
+  }
+  .single-resume-category ul li {
+    font-size: 14px;
+  }
+  .single-resume-category ul li:before {
+    top: 1px;
+  }
+  /*-- End Single Resume --*/
+  /*----- End Single Resume Page -----*/
+  /*----- Create Account Page -----*/
+  /*-- Create Photo --*/
+  .create-account-area {
+    padding-bottom: 140px;
+  }
+  .create-photo .already-create {
+    margin-bottom: 30px;
+  }
+  .create-photo .already-create a {
+    padding: 12px 27px;
+    margin-left: 10px;
+    display: inline-block;
+  }
+  .create-photo .create-photo-item .create-photo-left {
+    margin-bottom: 15px;
+  }
+  .create-photo .create-photo-item .create-photo-right .form-group .form-control {
+    height: 50px;
+    margin-bottom: 25px;
+    padding-left: 20px;
+    font-size: 14px;
+  }
+  .create-photo .create-photo-item .create-photo-right .create-photo-btn {
+    font-size: 15px;
+    padding: 12px 35px;
+  }
+  /*-- End Create Photo --*/
+  /*-- Create Information --*/
+  .create-information {
+    padding: 25px 15px 10px;
+    margin-bottom: 30px;
+  }
+  .create-information h3 {
+    margin-bottom: 30px;
+    font-size: 20px;
+  }
+  .create-information .create-information-btn {
+    margin-bottom: 30px;
+  }
+  .create-information .create-information-btn a {
+    display: inline-block;
+    width: 190px;
+    font-size: 14px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-right: 12px;
+  }
+  .create-information .form-group {
+    margin-bottom: 30px;
+  }
+  .create-information .form-group label {
+    font-size: 14px;
+  }
+  .create-information .form-group .form-control {
+    height: 45px;
+    font-size: 14px;
+  }
+  .create-information .form-group .gender-area span {
+    margin-bottom: 15px;
+    font-size: 14px;
+  }
+  /*-- End Create Information --*/
+  /*-- Create Education --*/
+  .create-education {
+    padding: 25px 15px 10px;
+    margin-bottom: 30px;
+  }
+  .create-education .create-education-wrap .create-education-right a {
+    font-size: 14px;
+    padding: 10px 12px;
+  }
+  .create-education h3 {
+    margin-bottom: 30px;
+    font-size: 20px;
+  }
+  .create-education .form-group label {
+    font-size: 14px;
+  }
+  .create-education .form-group .form-control {
+    height: 45px;
+    font-size: 14px;
+  }
+  /*-- End Create Education --*/
+  /*-- Create Skills --*/
+  .create-skills {
+    padding: 25px 15px 10px;
+    margin-bottom: 30px;
+  }
+  .create-skills .create-skills-wrap .create-skills-right a {
+    font-size: 14px;
+    padding: 10px 15px;
+    margin-left: 4px;
+  }
+  .create-skills h3 {
+    margin-bottom: 30px;
+    font-size: 20px;
+  }
+  .create-skills .form-group label {
+    font-size: 14px;
+  }
+  .create-skills .form-group .form-control {
+    height: 45px;
+    font-size: 14px;
+  }
+  /*-- End Create Education --*/
+  .create-ac-btn {
+    font-size: 15px;
+    padding: 12px 35px;
+  }
+  /*----- End Create Account Page -----*/
+  /*----- Pricing Page -----*/
+  /*-- Pricing --*/
+  .pricing-area {
+    padding-bottom: 110px;
+  }
+  .pricing-item {
+    padding: 30px 30px 35px;
+  }
+  .pricing-item span {
+    font-size: 14px;
+  }
+  .pricing-item h2 {
+    font-size: 40px;
+  }
+  .pricing-item .pricing-btn {
+    margin-top: 30px;
+  }
+  /*-- End Pricing --*/
+  /*----- End Pricing Page -----*/
+  /*----- Dashboard Page -----*/
+  /*-- Dashboard --*/
+  .dashboard-area {
+    padding-bottom: 110px;
+  }
+  .dashboard-area .dashboard-img h3 {
+    margin-bottom: 2px;
+    font-size: 24px;
+  }
+  .dashboard-area .dashboard-img p {
+    font-size: 14px;
+  }
+  .dashboard-area .dashboard-nav ul li {
+    margin-bottom: 10px;
+  }
+  .dashboard-area .dashboard-nav ul li a {
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+  .dashboard-area .create-education-two .create-education-right a {
+    margin-left: 15px;
+    margin-bottom: 5px;
+    font-size: 11px;
+    padding: 10px 10px;
+  }
+  .dashboard-area .change-password-area h2 {
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  .dashboard-area .change-password-area .form-group label {
+    font-size: 14px;
+  }
+  .dashboard-area .change-password-area .change-pass-btn {
+    font-size: 15px;
+    padding: 12px 40px;
+  }
+  /*-- End Dashboard --*/
+  /*----- End Dashboard Page -----*/
+  /*----- Login Page -----*/
+  /*-- Job --*/
+  .login-area {
+    padding-bottom: 140px;
+  }
+  .login-area h2 {
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-top: -6px;
+  }
+  .login-area .login-wrap {
+    padding: 30px 20px 0;
+  }
+  .login-area .form-group .form-control {
+    padding-left: 15px;
+    font-size: 14px;
+  }
+  .login-area .login-sign-in {
+    padding-top: 0;
+  }
+  .login-area .login-sign-in a {
+    font-size: 14px;
+  }
+  .login-area .login-sign-in ul {
+    margin-top: 15px;
+  }
+  .login-area .login-sign-in ul li {
+    font-size: 14px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .login-area .login-sign-in ul li a {
+    font-size: 14px;
+  }
+  .login-area .login-sign-in .login-btn {
+    font-size: 16px;
+    padding: 12px 70px;
+    margin-top: 20px;
+    margin-bottom: 35px;
+  }
+  .login-area .login-social {
+    text-align: center;
+  }
+  .login-area .login-social a {
+    width: 47%;
+    font-size: 14px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+  }
+  .login-area .login-social a i {
+    margin-right: 3px;
+    font-size: 20px;
+  }
+  /*-- End Job --*/
+  /*----- End Login Page -----*/
+  /*----- Company List Page -----*/
+  /*-- Company --*/
+  .companies-area-two {
+    padding-bottom: 110px;
+  }
+  /*-- End Company --*/
+  /*----- End Company List Page -----*/
+  /*----- Company Details Page -----*/
+  /*-- Company Details --*/
+  .company-details-area {
+    padding-bottom: 110px;
+  }
+  .company-details-item .company-details-logo .company-logo-inner {
+    padding-left: 20px;
+  }
+  .company-details-item .company-details-logo .company-logo-inner h3 {
+    font-size: 20px;
+  }
+  .company-details-item .company-details-share span {
+    font-size: 16px;
+  }
+  .company-details-item .company-details-share ul li a {
+    font-size: 17px;
+  }
+  .company-details-item .company-details-find h3 {
+    font-size: 18px;
+  }
+  .company-details-item .company-details-find ul li a {
+    font-size: 14px;
+  }
+  .company-details-item .company-details-description h3 {
+    font-size: 20px;
+    margin-bottom: 12px;
+  }
+  .company-details-item .company-details-description p {
+    font-size: 14px;
+  }
+  /*-- End Company Details --*/
+  /*----- End Company Details Page -----*/
+  /*----- Error Page -----*/
+  /*-- 404 --*/
+  .error-item {
+    height: 100%;
+    margin-top: 0;
+    padding-top: 155px;
+    padding-bottom: 135px;
+  }
+  .error-item h1 {
+    font-size: 65px;
+    margin-bottom: 4px;
+  }
+  .error-item p {
+    font-size: 20px;
+  }
+  .error-item a {
+    padding: 15px 35px;
+    margin-top: 40px;
+    font-size: 15px;
+  }
+  /*-- End 404 --*/
+  /*----- End Error Page -----*/
+  /*----- FAQ Page -----*/
+  /*-- Faq --*/
+  .faq-area {
+    padding-bottom: 110px;
+  }
+  .faq-head h2 {
+    margin-bottom: 22px;
+    font-size: 20px;
+  }
+  .faq-wrap {
+    margin-bottom: 50px;
+  }
+  .faq-wrap:last-child {
+    margin-bottom: 30px;
+  }
+  .accordion p {
+    font-size: 14px;
+    padding: 20px 20px 15px 20px;
+  }
+  .accordion a {
+    font-size: 15px;
+    padding: 15px 33px 15px 18px;
+  }
+  /*-- End Faq --*/
+  /*----- End Faq Page -----*/
+  /*----- Privacy Policy Page -----*/
+  /*-- Privacy --*/
+  .privacy-area {
+    padding-bottom: 100px;
+  }
+  .privacy-item {
+    margin-bottom: 40px;
+  }
+  .privacy-item h2 {
+    font-size: 19px;
+    margin-bottom: 12px;
+  }
+  /*-- End Privacy --*/
+  /*----- End Privacy Policy Page -----*/
+  /*----- Blog Details Page -----*/
+  /*-- Blog Details --*/
+  .blog-details-area {
+    padding-bottom: 110px;
+  }
+  .blog-details-item .blog-details-img h3 {
+    margin-bottom: 15px;
+    font-size: 16px;
+  }
+  .blog-details-item .blog-details-img ul li {
+    font-size: 14px;
+  }
+  .blog-details-item .blog-details-img p {
+    margin-bottom: 8px;
+  }
+  .blog-details-item .blog-details-nav a {
+    padding: 7px 18px;
+  }
+  .blog-details-item .blog-details-form h3 {
+    margin-bottom: 16px;
+    font-size: 18px;
+  }
+  .blog-details-item .blog-details-form .form-group .form-control {
+    font-size: 14px;
+    padding-left: 15px;
+  }
+  .blog-details-item .blog-details-form .blog-details-btn {
+    padding: 12px 22px;
+    font-size: 14px;
+  }
+  .blog-details-item .blog-details-form .list-unstyled {
+    font-size: 13px;
+  }
+  .blog-details-item .blog-details-form .text-danger {
+    font-size: 18px;
+  }
+  .blog-details-item .blog-details-form .text-success {
+    font-size: 18px;
+  }
+  /*-- End Blog Details --*/
+  /*----- End Blog Details Page -----*/
+  /*----- Contact Page -----*/
+  /*-- Location --*/
+  .contact-location-item {
+    margin-bottom: 0;
+  }
+  /*-- End Location --*/
+  /*-- Contact --*/
+  .contact-form-area .form-group .form-control {
+    height: 50px;
+    padding-left: 20px;
+    font-size: 14px;
+  }
+  .contact-form-area .list-unstyled {
+    font-size: 13px;
+  }
+  .contact-form-area .text-danger {
+    font-size: 18px;
+  }
+  .contact-form-area .text-success {
+    font-size: 18px;
+  }
+  .contact-form-area .contact-btn {
+    padding: 12px 40px;
+    font-size: 14px;
+  }
+  /*-- End Contact --*/
+  /*-- Map --*/
+  #map {
+    height: 400px;
+  }
+  /*-- End Map --*/
+  /*----- End Contact Page -----*/
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .common-btn a {
+    font-size: 14px;
+    width: 110px;
+    padding: 10px 0;
+  }
+  .common-btn .login-btn {
+    margin-right: 6px;
+  }
+  .main-nav nav .navbar-nav .nav-item a {
+    font-size: 15px;
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+  .section-title {
+    margin-bottom: 30px;
+  }
+  .section-title h2 {
+    font-size: 30px;
+  }
+  .popular-right {
+    padding-left: 0;
+  }
+  .popular-item ul li i {
+    margin-right: 4px;
+  }
+  .popular-item ul li {
+    font-size: 13px;
+    padding: 5px;
+  }
+  .jobseeker-item .jobseeker-inner {
+    padding-left: 52px;
+  }
+  .jobseeker-item .jobseeker-inner h3 {
+    font-size: 19px;
+  }
+  .banner-area-three .banner-text {
+    position: relative;
+    z-index: 1;
+  }
+  .portal-item h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .portal-right {
+    padding-left: 5px;
+  }
+  .portal-counter-area .counter-item p {
+    font-size: 13px;
+  }
+  .login-area .login-social {
+    text-align: center;
+  }
+  .login-area .login-social a {
+    width: 46%;
+  }
+}
+
+@media only screen and (min-width: 1700px) {
+  .app-area {
+    padding: 40px 0;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
