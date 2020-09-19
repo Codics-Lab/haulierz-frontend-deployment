@@ -119,6 +119,24 @@ button:focus {
   transition: 0.5s all ease;
 }
 
+.logo-container {
+  background-color: #ffffff;
+  padding-top: 1rem;
+  padding-bottom: 0.7rem;
+  padding-left: 0.9rem;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px ;
+  position: absolute;
+  top: -14px;
+  left: -35px;
+}
+
+.button-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
 .main-nav nav {
   padding-top: 0;
   padding-bottom: 0;
