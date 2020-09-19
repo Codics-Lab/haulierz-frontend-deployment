@@ -230,7 +230,7 @@ button:focus {
 .common-btn .sign-up-btn {
   color: #ffffff;
   border: 1px solid;
-  border-image-source: linear-gradient(90deg, #38a745 0%, #4cce5b 63%);
+  border-image-source: linear-gradient(90deg, #013C78 0%, #005EBE 63%);
   border-image-slice: 1;
 }
 
@@ -242,15 +242,15 @@ button:focus {
   left: 0;
   top: 0;
   opacity: 1;
-  background: -webkit-gradient(linear, left top, right top, from(#38a745), color-stop(63%, #4cce5b));
-  background: linear-gradient(90deg, #38a745 0%, #4cce5b 63%);
+  background: -webkit-gradient(linear, left top, right top, from(#013C78), color-stop(63%, #005EBE));
+  background: linear-gradient(90deg, #013C78 0%, #005EBE 63%);
   -webkit-transition: 0.5s all ease;
   transition: 0.5s all ease;
   z-index: -1;
 }
 
 .common-btn .sign-up-btn:hover {
-  color: #333333;
+  color: #005EBE;
 }
 
 .common-btn .sign-up-btn:hover:before {
