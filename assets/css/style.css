@@ -312,15 +312,10 @@ button:focus {
 }
 
 .banner-text h1 {
-  font-weight: 700;
+  font-weight: 600;
   font-size: 48px;
-  color: #ffffff;
-  margin-bottom: 10px;
-}
-
-.banner-text h1 span {
-  display: inline-block;
-  color: #005EBE;
+  color: lightblue;
+  margin-bottom: 0px;
 }
 
 .banner-text p {
@@ -328,120 +323,15 @@ button:focus {
   font-size: 18px;
 }
 
-.banner-form-area {
-  background-color: #ffffff;
-  padding: 10px 30px;
-  border-radius: 50px;
-  -webkit-box-shadow: 0px 0px 0 15px #ffffff80;
-          box-shadow: 0px 0px 0 15px #ffffff80;
+.hidden {
+  opacity:0;
 }
 
-.banner-form-area form {
-  position: relative;
-  padding-right: 150px;
-}
-
-.banner-form-area form .form-group {
-  margin-bottom: 0;
-  position: relative;
-}
-
-.banner-form-area form .form-group i {
-  background: -webkit-gradient(linear, left top, right top, from(#38a745), color-stop(63%, #4cce5b));
-  background: linear-gradient(90deg, #38a745 0%, #4cce5b 63%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.banner-form-area form .form-group .form-control {
-  height: 50px;
-  border-radius: 0;
-  border: 0;
-  border-right: 1px solid #cacacd;
-  padding-left: 0;
-  padding-right: 40px;
-}
-
-.banner-form-area form .form-group .form-control:focus {
-  -webkit-box-shadow: none;
-          box-shadow: none;
-  border: 0;
-}
-
-.banner-form-area form .form-group ::-webkit-input-placeholder {
-  color: #95969c;
-}
-
-.banner-form-area form .form-group :-ms-input-placeholder {
-  color: #95969c;
-}
-
-.banner-form-area form .form-group ::-ms-input-placeholder {
-  color: #95969c;
-}
-
-.banner-form-area form .form-group ::placeholder {
-  color: #95969c;
-}
-
-.banner-form-area form .form-group label {
-  margin-bottom: 0;
-  position: absolute;
-  top: 13px;
-  right: 20px;
-  display: block;
-}
-
-.banner-form-area form .form-group label i {
-  font-weight: 700;
-  font-size: 25px;
-}
-
-.banner-form-area form .form-group .nice-select {
-  width: 100%;
-  display: block;
-  border-radius: 0;
-  height: 50px;
-  color: #95969c;
-  line-height: 50px;
-  border: 0;
-  font-size: 16px;
-  padding-left: 0;
-}
-
-.banner-form-area form .form-group .nice-select:after {
-  height: 8px;
-  right: 18px;
-  width: 8px;
-  border-color: 1px solid;
-  border-image-source: linear-gradient(90deg, #38a745 0%, #4cce5b 63%);
-  border-image-slice: 1;
-}
-
-.banner-form-area form .form-group .nice-select.open .list {
-  width: 100%;
-}
-
-.banner-form-area .banner-form-btn {
-  position: absolute;
-  top: -10px;
-  right: -31px;
-  font-size: 18px;
-  color: #ffffff;
-  -webkit-transition: 0.5s all ease;
-  transition: 0.5s all ease;
-  background: -webkit-gradient(linear, left top, right top, from(#38a745), color-stop(63%, #4cce5b));
-  background: linear-gradient(90deg, #38a745 0%, #4cce5b 63%);
-  padding: 21px 45px;
-  border-radius: 45px;
-  -webkit-transition: width 20s, opacity 0.6s;
-  transition: width 20s, opacity 0.6s;
-}
-
-.banner-form-area .banner-form-btn:hover {
-  background: -webkit-gradient(linear, right top, left top, from(#38a745), color-stop(63%, #4cce5b));
-  background: linear-gradient(270deg, #38a745 0%, #4cce5b 63%);
+.console-underscore {
+  display:inline-block;
+  position:relative;
+  top:-0.14em;
+  left:10px;
 }
 
 .banner-btn {
