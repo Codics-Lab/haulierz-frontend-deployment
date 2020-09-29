@@ -24,6 +24,16 @@
         <link rel="stylesheet" href="assets/css/style.css">
         <!-- Responsive CSS -->
         <link rel="stylesheet" href="assets/css/responsive.css">
+        <link rel="stylesheet" href="assets/css/main0dc4.css">
+
+        <link href="assets/bower_components/select2/dist/css/select2.min.css" rel="stylesheet">
+        <link href="assets/bower_components/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet">
+        <link href="assets/bower_components/dropzone/dist/dropzone.css" rel="stylesheet">
+        <link href="assets/bower_components/datatables.net-bs/css/dataTables.bootstrap.min.css" rel="stylesheet">
+        <link href="assets/bower_components/fullcalendar/dist/fullcalendar.min.css" rel="stylesheet">
+        <link href="assets/bower_components/perfect-scrollbar/css/perfect-scrollbar.min.css" rel="stylesheet">
+        <link href="assets/bower_components/slick-carousel/slick/slick.css" rel="stylesheet">
+        <link href="assets/css/main0dc4.css?version=4.1.0" rel="stylesheet">
 
         <title>Haulierz - Premium frieght service</title>
 
@@ -93,7 +103,57 @@
                             <!-- <h1>Book Your <span>Desired</span> Service</h1> -->
                             <p>Convenience at your doorstep</p>
                             <div class="banner-btn">
-                                <a href="create-account.html" class="about-btn">About Haulierz</a>
+                                <a href="#" class="about-btn" data-target="#onboardingWideSlideModal"
+                                data-toggle="modal">About Haulierz</a>
+                                <div aria-hidden="true" class="onboarding-modal modal fade animated"
+                                    id="onboardingWideSlideModal" role="dialog" tabindex="-1">
+                                    <div class="modal-dialog modal-lg modal-centered" role="document">
+                                        <div class="modal-content text-center">
+                                            <button aria-label="Close" class="close" data-dismiss="modal" type="button">
+                                                <span class="close-label">Skip Intro</span>
+                                                <span class="os-icon os-icon-close"></span>
+                                            </button>
+                                            <div class="onboarding-slider-w">
+                                                <div class="onboarding-slide">
+                                                    <div class="onboarding-side-by-side">
+                                                        <div class="onboarding-content with-gradient">
+                                                            <h4 class="onboarding-title">Haulierz
+                                                            </h4>
+                                                            <div class="onboarding-text">In this example you can see a
+                                                                form where you can request some additional information
+                                                                from the customer when they land on the app page.</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="onboarding-slide">
+                                                    <div class="onboarding-side-by-side">
+                                                        <div class="onboarding-content with-gradient">
+                                                            <h4 class="onboarding-title">Background</h4>
+                                                            <div class="onboarding-text">In this example you can
+                                                                showcase some of the features of your application, it is
+                                                                very handy to make new users aware of your hidden
+                                                                features. You can use boostrap columns to split them up.
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="onboarding-slide">
+                                                    <div class="onboarding-side-by-side">
+                                                        <div class="onboarding-content with-gradient">
+                                                            <h4 class="onboarding-title">Vision
+                                                            </h4>
+                                                            <div class="onboarding-text">This is an example of a
+                                                                multistep onboarding screen, you can use it to introduce
+                                                                your customers to your app, or collect additional
+                                                                information from them before they start using your app.
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                                 <a href="submit-resume.html" class="booking-btn">Ready for booking?</a>
                             </div>
                         </div>
@@ -107,9 +167,7 @@
         <script src="assets/js/jquery.min.js"></script>
         <script src="assets/js/popper.min.js"></script>
         <script src="assets/js/bootstrap.min.js"></script>
-        <!-- Meanmenu JS -->
         <script src="assets/js/jquery.meanmenu.js"></script>
-        <!-- Nice Select JS -->
         <script src="assets/js/jquery.nice-select.min.js"></script>
         <!-- Mixitup JS -->
         <script src="assets/js/jquery.mixitup.min.js"></script>
@@ -128,6 +186,36 @@
         <script src="assets/js/wow.min.js"></script>
         <!-- Custom JS -->
         <script src="assets/js/custom.js"></script>
+        <script src="assets/bower_components/slick-carousel/slick/slick.min.js"></script>
+        <!-- <script src="assets/bower_components/ion.rangeSlider/js/ion.rangeSlider.min.js"></script> -->
+        <!-- <script src="assets/bower_components/bootstrap/js/dist/carousel.js"></script> -->
+        <script src="assets/bower_components/jquery/dist/jquery.min.js"></script>
+        <!-- <script src="assets/bower_components/moment/moment.js"></script> -->
+        <script src="assets/bower_components/chart.js/dist/Chart.min.js"></script>
+        <script src="assets/bower_components/select2/dist/js/select2.full.min.js"></script>
+
+        <script src="assets/bower_components/jquery-bar-rating/dist/jquery.barrating.min.js"></script>
+        <script src="assets/bower_components/ckeditor/ckeditor.js"></script>
+        <script src="assets/bower_components/bootstrap-validator/dist/validator.min.js"></script>
+        <script src="assets/bower_components/bootstrap-daterangepicker/daterangepicker.js"></script>
+        <!-- <script src="assets/js/main0dc4.js"></script>  -->
+        <script src="assets/bower_components/dropzone/dist/dropzone.js"></script>
+        <script src="assets/bower_components/editable-table/mindmup-editabletable.js"></script>
+        <script src="assets/bower_components/datatables.net/js/jquery.dataTables.min.js"></script>
+        <script src="assets/bower_components/datatables.net-bs/js/dataTables.bootstrap.min.js"></script>
+        <script src="assets/bower_components/fullcalendar/dist/fullcalendar.min.js"></script>
+        <script src="assets/bower_components/perfect-scrollbar/js/perfect-scrollbar.jquery.min.js"></script>
+        <script src="assets/bower_components/tether/dist/js/tether.min.js"></script>
+        <script src="assets/bower_components/slick-carousel/slick/slick.min.js"></script>
+        <script src="assets/bower_components/bootstrap/js/dist/util.js"></script>
+        <script src="assets/bower_components/bootstrap/js/dist/alert.js"></script>
+        <script src="assets/bower_components/bootstrap/js/dist/button.js"></script>
+        <script src="assets/bower_components/bootstrap/js/dist/collapse.js"></script>
+        <script src="assets/bower_components/bootstrap/js/dist/dropdown.js"></script>
+        <script src="assets/bower_components/bootstrap/js/dist/modal.js"></script>
+        <script src="assets/bower_components/bootstrap/js/dist/tab.js"></script>
+        <script src="assets/bower_components/bootstrap/js/dist/tooltip.js"></script>
+        <script src="assets/bower_components/bootstrap/js/dist/popover.js"></script>
 
     </body>
 </html>

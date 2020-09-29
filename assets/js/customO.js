@@ -12,9 +12,9 @@
 	});				
 
     // Mean Menu
-	/*jQuery('.mean-menu').meanmenu({
+	jQuery('.mean-menu').meanmenu({
 		meanScreenWidth: "991"
-	});*/
+	});
 
 	// Sorting Portfolio JS
 	$('#container').mixItUp();
@@ -165,53 +165,6 @@
 		$("#validator-newsletter").removeClass().addClass(msgClasses).text(msg);
 	}
 	
-	  // #7. FORM STEPS FUNCTIONALITY
-
-	  $('.step-trigger-btn').on('click', function () {
-		var btn_href = $(this).attr('href');
-		$('.step-trigger[href="' + btn_href + '"]').click();
-		return false;
-	  });
-	
-	  // FORM STEP CLICK
-	  $('.step-trigger').on('click', function () {
-		var prev_trigger = $(this).prev('.step-trigger');
-		if (prev_trigger.length && !prev_trigger.hasClass('active') && !prev_trigger.hasClass('complete')) return false;
-		var content_id = $(this).attr('href');
-		$(this).closest('.step-triggers').find('.step-trigger').removeClass('active');
-		$(this).prev('.step-trigger').addClass('complete');
-		$(this).addClass('active');
-		$('.step-content').removeClass('active');
-		$('.step-content' + content_id).addClass('active');
-		return false;
-	  });
-	  // END STEPS FUNCTIONALITY
-
-	  // #21. Onboarding Screens Modal
-
-	  $.noConflict();	
-	  $('.onboarding-modal.show-on-load').modal('show');
-		if ($('.onboarding-modal .onboarding-slider-w').length) {
-			$('.onboarding-modal .onboarding-slider-w').slick({
-			dots: true,
-			infinite: false,
-			adaptiveHeight: true,
-			slidesToShow: 1,
-			slidesToScroll: 1
-			});
-			$('.onboarding-modal').on('shown.bs.modal', function (e) {
-			$('.onboarding-modal .onboarding-slider-w').slick('setPosition');
-			});
-		}
-
-		// #17. BOOTSTRAP RELATED JS ACTIVATIONS
-
-		// // - Activate tooltips
-		// $('[data-toggle="tooltip"]').tooltip();
-
-		// // - Activate popovers
-		// $('[data-toggle="popover"]').popover();
-
 	// AJAX MailChimp
 	$(".newsletter-form").ajaxChimp({
 		url: "https://envytheme.us20.list-manage.com/subscribe/post?u=60e1ffe2e8a68ce1204cd39a5&amp;id=42d6d188d9", // Your url MailChimp
@@ -257,5 +210,3 @@
 	
 }); 	
 })(jQuery);
-
-
